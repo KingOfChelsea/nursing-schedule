@@ -1,0 +1,23 @@
+// src/styles/element-overrides.scss
+@use 'variables.scss' as *;
+
+/* ========= Element Plus 全局变量覆写 ========= */
+:root {
+  --el-color-primary: #{$primary};
+  --el-bg-color: #{$bg-white};
+  --el-bg-color-page: #{$bg-base};
+  --el-text-color-primary: #{$text-primary};
+  --el-text-color-regular: #{$text-regular};
+  --el-text-color-secondary: #{$text-secondary};
+  --el-border-color: #{$border-color};
+  --el-border-color-light: #{$border-light};
+
+  /* Menu 专用 */
+  --el-menu-bg-color: transparent;
+  --el-menu-text-color: #{$sidebar-text-color};
+  --el-menu-hover-bg-color: #{$sidebar-hover-bg};
+  --el-menu-active-bg-color: #{$sidebar-active-bg};
+  --el-menu-active-text-color: #{$sidebar-active-text};
+  --el-menu-item-height: 46px;
+  --el-menu-icon-width: 20px;
+}

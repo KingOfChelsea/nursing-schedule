@@ -1,0 +1,53 @@
+// 主题色 - 医疗风格
+$primary: #2b7a78;        // 医疗蓝绿色
+$success: #52c41a;        // 清新绿
+$warning: #faad14;        // 温暖橙
+$danger: #ff4d4f;         // 活力红
+$info: #86909c;           // 中性灰
+
+// 文本颜色
+$text-primary: #1d2129;
+$text-regular: #4e5969;
+$text-secondary: #86909c;
+$text-placeholder: #c9cdd4;
+
+// 边框颜色
+$border-color: #e5e6eb;
+$border-light: #f0f0f5;
+$border-lighter: #f5f5f8;
+$border-extra-light: #fafafa;
+
+// 背景色
+$bg-base: #f0f4f8;        // 医疗冷色调背景
+$bg-white: #ffffff;
+
+// 班次颜色 - 护理排班专用
+$shift-colors: (
+  'morning': #4facfe,     // 早班 - 天空蓝
+  'afternoon': #43e97b,   // 午班 - 青草绿
+  'night': #667eea,       // 夜班 - 星空紫
+  'rest': #f093fb,        // 休息 - 粉紫色
+  'leave': #f5576c,       // 请假 - 玫瑰红
+  'training': #4facfe,    // 培训 - 天蓝
+  'overtime': #fa709a     // 加班 - 樱花粉
+);
+
+// 侧边栏 - 采用更柔和专业的配色
+// 侧边栏 - 清爽专业版
+$sidebar-bg: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%); // 浅灰渐变
+$sidebar-hover-bg: rgba(52, 152, 219, 0.06);
+$sidebar-active-bg: rgba(52, 152, 219, 0.1);
+$sidebar-text-color: #495057;
+$sidebar-active-text: #2980b9;
+$sidebar-border: rgba(0, 0, 0, 0.04);
+$sidebar-logo-bg: linear-gradient(135deg, #2980b9, #3498db);
+$sidebar-logo-text: #ffffff;
+
+// 顶部导航栏
+$header-bg: linear-gradient(90deg, #ffffff 0%, #f8fafc 100%);
+$header-shadow: 0 2px 8px rgba(26, 82, 118, 0.08);
+
+// 标签栏
+$tabs-bar-bg: #f8fafc;
+$tabs-active-bg: #ffffff;
+$tabs-active-border: #2b7a78;

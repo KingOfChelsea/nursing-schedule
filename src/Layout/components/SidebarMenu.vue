@@ -32,16 +32,16 @@
         <!-- 无子菜单 -->
         <el-menu-item v-if="!item.children" :index="item.index">
           <el-icon><component :is="getIcon(item.icon)" /></el-icon>
-          <template #title>{{ item.title }}{{ item.index }}</template>
+          <template #title>{{ item.title }}</template>
         </el-menu-item>
         <!-- 有子菜单 -->
         <el-sub-menu v-else :index="item.index">
           <template #title>
             <el-icon><component :is="getIcon(item.icon)" /></el-icon>
-            <span>{{ item.title }} + {{ item.index }}</span>
+            <span>{{ item.title }} </span>
           </template>
           <el-menu-item v-for="child in item.children" :key="child.index" :index="child.index">
-            {{ child.title }} {{ child.index }}
+            {{ child.title }}
           </el-menu-item>
         </el-sub-menu>
       </template>
